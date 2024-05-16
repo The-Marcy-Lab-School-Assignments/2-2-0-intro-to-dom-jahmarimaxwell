@@ -33,12 +33,12 @@
   },
   "testScores": {
     "Modify Tests": {
-      "MoTe1": 0,
+      "MoTe1": 1,
       "MoTe2": 0,
-      "MoTe3": 0,
-      "MoTe4": 0,
-      "MoTe5": 0,
-      "MoTe6": 0,
+      "MoTe3": 1,
+      "MoTe4": 1,
+      "MoTe5": 1,
+      "MoTe6": 1,
       "MoTe7": 0,
       "MoTe8": 0,
       "MoTe9": 0
@@ -52,8 +52,8 @@
     }
   },
   "humanReadable": {
-    "Modify Tests": "0/9",
-    "finalTestScore": "FINAL SCORE: 0/14",
+    "Modify Tests": "5/9",
+    "finalTestScore": "FINAL SCORE: 5/14",
     "From Scratch Tests": "0/5"
   }
 }
