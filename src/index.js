@@ -1,48 +1,17 @@
-const getMainHeadingText = () => {
-    let text = document.querySelector('#main-heading');
-    console.log(text.textContent);
+const HelloWorldAndP = () => {
+    const body = document.querySelector('body');
+    const h1 = document.createElement('h1');
+    h1.setAttribute("id", "main-heading");
+    const text = document.createTextNode("Hello World!");
+
+    const p = document.createElement('p');
+    p.setAttribute("id", "main-text");
+    p.setAttribute("class", "boring-text");
+    const pText = document.createTextNode("Look, I'm some text!");
+
+    body.appendChild(h1);
+    body.appendChild(p);
+    h1.appendChild(text);
+    p.appendChild(pText);
 }
-const getAllMainText = () => {
-    let newString = ""
-    newString += ',' + document.querySelectorAll('.main-text');
-    console.log(newString.textContent);
-};
-
-const setSubtitleText = () => {
-};
-
-const modifyDivClassList = () => {
-};
-
-const addH2 = () => {
-};
-
-const removeOldInfo = () => {
-};
-
-const makeAlphabet = () => {
-};
-
-const makeBio = () => {
-};
-
-// "runner" function
-const main = () => {
-    // read
-    getMainHeadingText();
-    getAllMainText();
-
-    // update
-    setSubtitleText();
-    modifyDivClassList();
-
-    // create
-    addH2();
-
-    // delete
-    removeOldInfo();
-
-    // more advanced stuff!
-    makeAlphabet();
-    makeBio();
-};
+HelloWorldAndP();
